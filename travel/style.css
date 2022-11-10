@@ -1,0 +1,1996 @@
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+  }
+  
+  /* Sections
+     ========================================================================== */
+  
+  /**
+   * Remove the margin in all browsers.
+   */
+  
+  body {
+    margin: 0;
+  }
+  
+  /**
+   * Render the `main` element consistently in IE.
+   */
+  
+  main {
+    display: block;
+  }
+  
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /**
+   * Add the correct font size in all browsers.
+   */
+  
+  small {
+    font-size: 80%;
+  }
+  
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  
+  sub {
+    bottom: -0.25em;
+  }
+  
+  sup {
+    top: -0.5em;
+  }
+  
+  /* Embedded content
+     ========================================================================== */
+  
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  
+  img {
+    border-style: none;
+  }
+  
+  /* Forms
+     ========================================================================== */
+  
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+  }
+  
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  
+  button,
+  input { /* 1 */
+    overflow: visible;
+  }
+  
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  
+  button,
+  select { /* 1 */
+    text-transform: none;
+  }
+  
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  
+  /**
+   * Correct the padding in Firefox.
+   */
+  
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  
+  legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+  }
+  
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  
+  progress {
+    vertical-align: baseline;
+  }
+  
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  
+  [type="checkbox"],
+  [type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+  }
+  
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  
+  [type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+  }
+  
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+  }
+  
+  /* Interactive
+     ========================================================================== */
+  
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  
+  details {
+    display: block;
+  }
+  
+  /*
+   * Add the correct display in all browsers.
+   */
+  
+  summary {
+    display: list-item;
+  }
+  
+  /* Misc
+     ========================================================================== */
+  
+  /**
+   * Add the correct display in IE 10+.
+   */
+  
+  template {
+    display: none;
+  }
+  
+  /**
+   * Add the correct display in IE 10.
+   */
+  
+  [hidden] {
+    display: none;
+  }
+
+:root {
+    --color-white: #FFFFFF;
+    --primary-color-button: #0D606F;
+    --primary-title-color: #F2785C;  
+
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 10px;
+    
+}
+
+
+body {
+    font-family: 'Aleo', serif;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow-x: hidden;
+    position: relative;
+    
+    /*font-family: 'Red Hat Text', sans-serif;*/
+}
+
+.overlay {
+  position: fixed;
+  display: none;
+  width: 0;
+  height: 100%;
+  opacity: 0;
+}
+
+.overlay_active {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: 2825px;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 9998;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.footer-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/*header, prewiew styles start*/
+
+.preview-wrapper {
+    background-image: url('./assets/images/background-prewiew.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     max-width: 1440px;
+     height: 765px;
+     margin: 0 auto;
+    
+     
+   
+}
+
+.header {
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    
+  }
+
+.header__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 25px 1px 12px 1px;
+}
+
+
+.header__logo {
+  margin-right: 40px;
+}
+
+.header__logo__image {
+  background-image: url('./assets/icons/logo.svg');
+  width: 216px;
+  height: 31px;
+  cursor: pointer;
+}
+
+.header__burger {
+  height: 18px;
+  width: 27px;
+  position: relative;
+  display: none;
+  
+  
+
+}
+
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-white);
+  position: absolute;
+  left: 0;
+}
+
+.burger__line_first {
+  top: 0;
+}
+
+.burger__line_second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.burger__line_third {
+  bottom: 0;
+}
+
+.header__navigation {
+   padding-right:79px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+    
+}
+
+.nav__item {
+    list-style: none;
+    padding-right: 42px;
+    margin-top: -10px;
+}
+
+.nav__item:nth-last-child(-n + 1) {
+    padding-right: 0;
+}
+
+.nav__item_hidden {
+  display: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: Red Hat Text;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 21px;
+    cursor: pointer;
+    transition: .8s;
+    
+
+}
+
+.nav__link:hover,.nav__link:focus, .nav__link:active{
+  color:rgb(248, 236, 223);
+  opacity: .75;
+  text-decoration: underline;
+}
+
+.primary-button {
+    background: var(--primary-color-button);
+    border-radius: 10px;
+    border: #0D606F;
+    font-family: Red Hat Text;
+    font-weight: 500;
+    color: var(--color-white);
+    text-align: center;
+    cursor: pointer;
+    transition: .6s;
+}
+.primary-button:hover {
+  background: var(--primary-color-button);
+  opacity: .85;
+  box-shadow: #0d7486 1px 1px 2px 1px;
+  
+}
+
+
+.login_button {
+    width: 103px;
+    height: 41px;
+    font-size: 1.6rem;
+    transition: .6s;
+}
+
+.login_button:hover {
+  background: var(--primary-title-color);
+  box-shadow: var(--primary-title-color) 1px 1px 2px 1px;
+}
+
+/*header styles finish*/
+
+/*preview styles start*/
+
+.preview__content {
+    padding-top: 32px;
+    padding-left: 120px;
+   
+}
+
+.preview__title {
+    width: 892px;
+    height: 422px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+    color: var(--color-white);
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: -197px;
+}
+
+.preview__subtitle {
+    width: 723px;
+    height: 24px;
+    padding-bottom: 68px;
+}
+
+.preview__subtitle__text {
+    font-family: 'Aleo';
+    font-size: 20px;
+    font-style: italic;
+    line-height: 24px;
+    color: var(--color-white);
+    letter-spacing: 0.02em;
+    margin: 0;
+}
+
+.preview__form {
+    height: 95px;
+    width: 892px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+form {
+    padding-top: 17px;
+    
+}
+
+.input__field {
+    width: 560px;
+    height: 22px;
+    padding-left: 41px;
+    font-family: Aleo;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    border: none;
+    outline: none;
+    background: transparent;
+    caret-color: var(--primary-title-color);
+    margin-right: 80px;
+    
+
+}
+
+.input__field:focus {
+    color: var(--primary-title-color);
+    caret-color: var(--primary-title-color);
+    border: none;
+    outline: none;
+}
+
+.input__field::placeholder {
+    color: var(--primary-title-color);
+}
+
+.start-button {
+    height: 59px;
+    width: 228px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+
+
+}
+/*preview styles finish*/
+
+/*steps styles start*/
+.steps {
+    padding-top: 49px;
+    padding-bottom: 70px;
+    
+}
+
+.section__title {
+    font-family: Red Hat Text;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 53px;
+    color: var(--primary-title-color);
+    text-align: center;
+    
+  }
+
+  .steps__title {
+    padding-top: 50px;
+  }
+
+.steps-items {
+    display: flex;
+    justify-content: space-between;
+    height: 154px;
+    width: 1177px;
+    padding-top: 10px;
+    margin-left: 130px;
+    
+}
+
+.opacity {
+  opacity: .5;
+}
+
+.step__item {
+    width: 317px;
+    height: 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 30px;
+}
+
+.step__item:nth-child(1) {
+  padding-right: 70px;
+}
+
+.ico {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background: var(--primary-title-color);
+    
+
+
+}
+
+.ico:first-child {
+    margin: 0;
+    
+}
+
+.ico__wrapper__bicycle {
+    padding: 28px 25px 27px 25px;
+}
+
+.ico_bicycle {
+    background-image: url('./assets/icons/bicycle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+    width: 50px;
+    position: absolute;
+   
+}
+
+.ico__wrapper__calendar {
+    padding: 24px;
+}
+
+.ico_calendar {
+    
+    background-image: url('./assets/icons/calendar.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 52px;
+    width: 52px;
+
+
+  
+}
+
+.ico__wrapper__airplane {
+    padding: 28px 20px 27px 20px;
+}
+
+.ico__airplane {
+    
+    background-image: url('./assets/icons/airplane.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 45px;
+    width: 60px;
+
+
+  
+}
+
+.ico__text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-color-button);
+  
+
+}
+
+/*steps styles finish*/
+
+/*destinations styles start*/
+
+.title__destinations {
+ padding-top: 70px;
+ padding-bottom: 15px;
+ 
+}
+
+.destinations__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 47px;
+  /*overflow: hidden;*/
+  
+}
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding-bottom: 24px;
+  max-width: 1440px;
+  height: 100%;
+  overflow: hidden;
+  
+ 
+}
+
+.destinations-items__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  left: 0;
+  transition: all ease 1s;
+  
+  
+}
+
+.destination__item {
+  
+  position: relative;
+  text-align: left;
+  color: var(--color-white);
+  font-family: Red Hat Text;
+  font-size: 3.2rem;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+
+}
+
+.destination__item-pic {
+  border-radius: 15px;
+  width: 800px;
+  height: 800px;
+}
+
+.destinations__subtitle {
+  position: absolute;
+  bottom: 40px;
+  left: 15px;
+}
+
+.destinations__slider {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 40px;
+  
+}
+
+
+.buttons__slider {
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  z-index: 10;
+  padding: 0px 5px;
+ 
+}
+
+.prev, .next {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: none;
+  
+  
+  
+}
+
+.prev {
+  background: url('./assets/icons/arrowright.svg') no-repeat center;
+  transform: rotate(180deg);
+}
+.prev_inactive {
+  background: url('./assets/icons/arrowleft.svg') no-repeat center;
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+  transform: rotate(0deg);
+}
+.next {
+  background: url('./assets/icons/arrowright.svg') no-repeat center;
+}
+
+.next_inactive {
+  background: url('./assets/icons/arrowleft.svg') no-repeat center;
+  transform: rotate(180deg);
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+
+.destinations-button {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  
+
+
+}
+
+.destinations-button_bordered {
+  background: rgba(242, 120, 92, 0.5);
+}
+
+.destinations-button_colored {
+  background: var(--primary-title-color);
+}
+
+.link-button {
+  height: 59px;
+  width: 228px;
+  font-family: Red Hat Text;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: right;
+  padding-left: 32px;
+  padding-right: 32px;
+  
+  
+}
+
+.arrow__destinations {
+  position: relative;
+  top: 15px;
+  left: 3px;
+  width: 33px;
+  height: 3px;
+  background-color: var(--color-white);
+  display: block;
+}
+
+.arrow__destinations::after {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  top: -5px;
+  right: -2px;
+  background-color: var(--color-white);
+  transform: rotate(45deg);
+}
+
+.arrow__destinations::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  top: 5px;
+  right: -2px;
+  background-color: var(--color-white);
+  transform: rotate(-45deg);
+}
+
+/*destinations styles finish*/
+
+/*stories styles start*/
+
+.stories-wrapper {
+  background: url('./assets/images/background-footer.jpg') no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+  
+}
+
+.travel__title {
+  padding-bottom: 7px;
+  
+}
+
+
+.stories__title {
+  padding-bottom: 40px;
+}
+
+.stories__items__wrapper {
+  background: rgba(255, 255, 255, 0.7);
+  
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-right: 95px;
+}
+
+.stories__items-wrapper-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories__items {
+  display: flex;
+ flex-direction: column;
+ padding-left: 200px;
+ padding-right: 110px;
+ gap: 30px;
+ padding-bottom: 38px;
+ 
+
+}
+
+.stories__item {
+ display: flex;
+ flex-direction: row;
+max-width: 1200px;
+min-height: 250px;
+gap: 40px;
+
+}
+
+
+.stories__image__wrapper {
+  width: 400px;
+  height: 250px;
+  
+}
+
+
+.stories__image__first {
+  background-image: url('./assets/images/Thailand.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  border: 0;
+  
+  
+}
+
+.stories__image__second {
+  background-image: url('./assets/images/Utah.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  
+}
+
+.stories__image__third {
+  background-image: url('./assets/images/Mountains.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+  
+}
+
+.stories__image__four {
+  background-image: url('./assets/images/Journey.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 250px;
+  border-radius: 15px;
+ 
+}
+
+.stories__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.stories__title {
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+  color: var(--primary-color-button);
+  padding: 0;
+  margin: 0;
+  
+
+}
+
+.stories__text-content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+
+.stories__text {
+  height: 184px;
+  width: 770px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: var(--primary-color-button);
+  margin: 0;
+  padding-bottom: 2px;
+  
+
+}
+
+.content__read__more {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Aleo';
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--primary-color-button);
+  line-height: 24px;
+  margin-top: -40px;
+}
+
+.stories__button {
+  padding-bottom: 40px;
+  margin-left: 95px;
+}
+
+/*stories styles finish*/
+
+/*footer styles start*/
+
+.footer_container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+    align-items: flex-start;
+}
+
+.student__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  
+}
+
+
+
+.contacts__image__student {
+  width: 100px;
+  height: 100px;
+  margin-top: -35px;
+}
+
+.organization__contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+
+.contacts__items__organization {
+  padding-right: 14px;
+
+}
+
+.contacts__items {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  
+}
+
+.contacts__item {
+ list-style: none;
+}
+
+.contacts__link {
+  cursor: pointer;
+}
+
+.contacts__image {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright {
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--color-white);
+  padding-top: 22px;
+  padding-right: 70px;
+}
+
+.github__image {
+  padding-top: 20px;
+}
+/*footer styles finish*/
+
+/* Media start*/
+@media screen and (max-width: 1439px) {
+  .header__navigation {
+    padding-right: 0;
+  }
+
+
+  .preview__content {
+    padding-left: 40px;
+  }
+
+  .steps-items {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .step__item:nth-child(1) {
+    padding-right: 0;
+  }
+
+  .destinations-items__wrapper {
+    gap: 30px;
+  }
+
+  .stories__items__wrapper {
+    padding-right: 0;
+    
+  }
+
+  .stories__items {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .stories__items__wrapper {
+    width: 100%;
+  }
+
+  .stories__item {
+    gap: 25px;
+  }
+
+  .stories__text-content {
+    padding-top: 10px;
+  }
+
+  .stories__text {
+    width: 100%;
+    height: auto;
+  }
+
+  .content__read__more {
+    margin-top:  0;
+  }
+
+  .stories__image__wrapper {
+    width: 50%;
+    height: auto;
+    padding-top: 15px;
+    
+  }
+
+  .footer_container {
+    padding-top: 15px;
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .header__logo__image {
+    background: url('./assets/icons/headerlogomob.svg') no-repeat center;
+    width: 50px;
+  }
+
+  .header__navigation {
+    padding-right: 15px;
+  }
+
+  .nav__item {
+    padding-right: 15px;
+  }
+
+  .preview__content {
+    padding-left: 0;
+  }
+
+  .preview__title {
+    width: 100%;
+    font-size: 70px;
+}
+
+.preview__subtitle {
+  width: 100%;
+}
+
+.preview__form {
+  width: auto;
+}
+
+.input__field {
+  width: 60%;
+  margin-right: 0;
+  font-size: 20px;
+}
+
+.steps-items {
+  width: 100%;
+  height: auto;
+}
+
+.section__title {
+  font-size: 3.5rem;
+}
+
+.ico__text  {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.destinations-items__wrapper {
+  gap: 30px;
+}
+
+.destination__item-pic {
+  width: 600px;
+  height: 600px;
+}
+
+.destinations__subtitle {
+  left: 30px;
+  bottom: 20px;
+}
+
+.stories__image__wrapper {
+  padding-top: 15px;
+}
+
+.stories__image__first, .stories__image__second, .stories__image__third, .stories__image__four {
+  width: 300px;
+  height: 200px;
+  background-position: center;
+}
+
+.stories__items__wrapper {
+  padding-top: 30px;
+  
+}
+
+.stories__items {
+  gap: 10px;
+}
+
+.stories__item {
+  gap: 20px;
+}
+
+.stories__title {
+  font-size: 22px;
+}
+
+.stories__text-content {
+  align-items: flex-start;
+  
+}
+
+.stories__text {
+  display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40rem;
+  font-size: 18px;
+  /*height: auto;*/
+  /*white-space:nowrap;*/
+  
+
+}
+.content__read__more {
+  font-size: 18px;
+}
+
+.copyright {
+  padding-right: 0;
+}
+
+.student__contacts-items {
+  gap: 0;
+  padding: 0;
+}
+
+.contacts__items__organization {
+  padding-right: 0;
+}
+
+}
+
+@media screen and (max-width: 697px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+
+  .header__navigation  {
+    padding-right: 5px;
+  }
+
+  .nav__item {
+    padding-right: 5px;
+    margin-top: -20px;
+  }
+
+  .nav__link {
+    font-size: 9.5px;
+  }
+
+  .login_button {
+    width: 40px;
+    height: 30px;
+    padding: 0;
+    font-size: 9.5px;
+  }
+
+  .preview__title {
+    font-size: 40px;
+  }
+
+  .preview__subtitle__text {
+    font-size: 18px;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .input__field {
+    padding-left: 10px;
+    width: 210px;
+    font-size: 16px;
+  }
+
+  .start-button {
+    width: 120px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+
+  .steps__title {
+    padding-top: 0;
+    
+  }
+
+  .section__title {
+    font-size: 2.4rem;
+  }
+
+  .ico  {
+    width: 80px;
+    height: 80px;
+  }
+
+  .step__item {
+    gap: 20px;
+  }
+
+  .ico__wrapper__bicycle {
+    padding: 24px 25px 27px 21px;
+  }
+
+  .ico_bicycle {
+    height: 35px;
+    width: 40px;
+  }
+
+  .ico_calendar {
+    height: 35px;
+    width: 40px;
+  }
+
+  .ico__wrapper__airplane {
+    padding: 24px 20px 27px 20px;
+  }
+
+  .ico__airplane {
+    height: 35px;
+    width: 40px;
+  }
+
+  .ico__text {
+    font-size: 1.2rem;
+  }
+
+  .title__destinations {
+    padding-top: 0px;
+    padding-bottom: 0;
+  }
+
+  .destinations__content {
+    padding-bottom: 17px;
+  }
+
+  .destination__item {
+    font-size: 2.2rem;
+  }
+
+  .destination__item-pic {
+    width: 400px;
+    height: 400px;
+  }
+
+  .destinations__slider {
+    padding-bottom: 30px;
+  }
+
+  .link-button {
+    width: 210px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 22px;
+  }
+
+  .stories__items {
+    padding-bottom: 10px;
+  }
+
+  .stories__item {
+    gap: 15px;
+  }
+
+
+  .stories__image__first, .stories__image__second, .stories__image__third, .stories__image__four {
+    width: 180px;
+    height: 150px;
+    background-position: bottom;
+  }
+
+  .stories__title {
+    font-size: 1.5rem;
+    line-height: 15px;
+  }
+
+  .stories__text {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+
+  .content__read__more {
+    font-size: 1.1rem;
+    line-height: 20px;
+  }
+
+  .stories__button {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  .footer_container {
+    padding-top: 0;
+  }
+
+  .student__contacts-items {
+    display: none;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+  .contacts__items {
+    gap: 20px;
+  }
+
+  .contacts__image {
+    width: 25px;
+    height: 25px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 391px) {
+  .preview-wrapper {
+    background: linear-gradient(180deg, #0D606F 0%, rgba(13, 96, 111, 0) 25.1%), url('./assets/images/previewbackgroundmobile.jpg') no-repeat center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: auto;
+    padding-bottom: 61px;
+    
+  }
+
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .header {
+    background: none;
+    box-shadow: none;
+    
+  }
+
+  .login_button {
+    display: none;
+  }
+
+  .header__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 0px 0px 0px;
+    margin-bottom: 67px;
+    
+  }
+
+  .header__burger {
+    display: block;
+    margin-left: 265px;
+    cursor: pointer;
+    
+  }
+
+  .header__navigation {
+    width: 165px;
+    height: 250px;
+    right: 0;
+    top: 0;
+    position: fixed;
+    background: var(--primary-title-color);
+    z-index: 9999;
+    border-radius: 10px;
+    padding: 0;
+    transform:translateX(100%);
+    transition: .4s all;
+  }
+
+  .header__navigation-active {
+    transform: translateX(0);
+  }
+
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 44px 15px 30px 44px;
+    margin: 0;
+  }
+
+  .nav__item {
+    width: 100%;
+    margin-top: 0;
+    padding-right: 0;
+  }
+
+  .nav__item_hidden {
+    display: block;
+  }
+
+
+  .nav__link {
+  font-family: Red Hat Text;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+
+.header__nav-close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.header__nav-close-line {
+  display: block;
+  height: 1px;
+  width: 20px;
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 50%;
+}
+
+.header__nav-close-line:first-child {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.header__nav-close-line:last-child {
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+.preview__content {
+  padding-top: 0;
+}
+
+  .preview__title {
+    display: none;
+  }
+
+  .preview__subtitle {
+    display: none;
+  }
+
+  .preview__form {
+    height: 48px;
+    width: 355px;
+    border-radius: 16px;
+    margin-left: 6px
+  }
+
+  form {
+    padding-top: 9px;
+    padding-bottom: 9px;
+
+  }
+
+  .primary-button {
+    width: 92px;
+    height: 30px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .start-button {
+    margin-right: 3px;
+
+}
+
+.input__field {
+  width: 60%;
+  font-size: 14px;
+  padding-left: 16px;
+ 
+}
+
+.section__title {
+  font-size: 1.4rem;
+  margin: 0;
+  
+}
+
+.steps__title {
+  padding: 3px 0px 3px;
+}
+
+.steps-items {
+  padding: 0px 5px;
+}
+
+.step__item:first-child {
+  align-items: flex-start;
+}
+
+.step__item:last-child {
+  align-items: flex-end;
+}
+
+.ico {
+  width: 70px;
+  height: 70px;
+}
+
+.ico__wrapper__bicycle {
+  padding: 19px 17px 18px 18px;
+}
+
+.ico_bicycle {
+  width: 35px;
+  height: 31px;
+}
+
+.ico__wrapper__calendar {
+  padding: 18px 17px 17px 18px;
+}
+
+.ico_calendar {
+  width: 35px;
+  height: 35px;
+}
+
+.ico__wrapper__airplane {
+  padding: 20px 15px;
+}
+
+.ico__airplane {
+  width: 40px;
+  height: 30px;
+}
+
+.ico__text {
+  
+font-size: 1rem;
+line-height: 12px;
+}
+
+.ico__text-first {
+  width: 94px;
+  text-align: left;
+}
+
+.ico__text-third {
+  text-align: right;
+
+}
+
+.title__destinations {
+  margin-top: -35px;
+}
+
+.destinations__content {
+  padding-bottom: 0;
+}
+
+.destinations-items__wrapper {
+  gap: 10px;
+}
+
+.destinations-items {
+  position: relative;
+  padding-left: 0;
+  padding: 0px 5px;
+}
+
+
+.destination__item-pic {
+  width: 360px;
+  height: 210px;
+  
+}
+
+.destinations__subtitle {
+  font-size: 20px;
+  line-height: 26px;
+  top: 9px;
+  left: 15px;
+}
+
+.prev, .next  {
+  display: block;
+}
+
+.destinations__slider {
+  position: absolute;
+  bottom: -6px;
+  gap: 4px;
+}
+
+.destinations-button {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+}
+
+.link-button {
+  padding-right: 12px;
+  padding-left: 9px;
+  padding-bottom: 3px;
+  
+}
+
+.arrow__destinations {
+    position: relative;
+    top: 8px;
+    left: 3px;
+    width: 8px;
+    height: 1px;
+    
+}
+
+.arrow__destinations::before {
+  content: '';
+    position: absolute;
+    width: 5px;
+    height: 1px;
+    top: 1px;
+    right: -2px;
+    background-color: var(--color-white);
+    transform: rotate(-45deg);
+}
+
+.arrow__destinations::after {
+  content: '';
+    position: absolute;
+    width: 5px;
+    height: 1px;
+    top: -1px;
+    right: -2px;
+    background-color: var(--color-white);
+    transform: rotate(45deg);
+}
+
+.stories__items__wrapper {
+  padding-top: 10px;
+}
+
+.travel__title {
+  padding-bottom: 0;
+}
+
+.stories__items__wrapper {
+  
+}
+
+.stories-wrapper {
+  background: url('./assets/images/footerbackgroundmobile.jpg') no-repeat top;
+  background-size: cover;
+  margin-top: -8px;
+}
+
+.stories__items {
+  gap: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.stories__item {
+  max-width: 360px;
+  min-height: auto;
+  gap: 10px;
+}
+
+.stories__image__wrapper {
+  padding-top: 0;
+}
+
+.stories__image__first, .stories__image__second, .stories__image__third, .stories__image__four {
+  width: 155px;
+  height: 130px;
+  filter: drop-shadow(0px 4px 4px #0D606F);
+  border-radius: 16px;
+}
+
+.stories__image__first {
+  background: url('./assets/images/thailandmobile.jpg') no-repeat center;
+}
+
+.stories__image__second {
+  background: url('./assets/images/utahmobile.jpg') no-repeat center;
+}
+
+.stories__image__third {
+  background: url('./assets/images/mountainsmobile.jpg') no-repeat center;
+}
+
+.stories__image__four {
+  background: url('./assets/images/journeymobile.jpg') no-repeat center;
+}
+
+.stories__content {
+  padding-top: 5px;
+}
+
+.stories__title {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13px;
+}
+
+.stories__text {
+  -webkit-line-clamp: 8;
+  font-size: 9px;
+  line-height: 11px;
+}
+
+.content__read__more {
+  font-size: 9px;
+  line-height: 11px;
+}
+
+
+.stories__button {
+  padding-bottom: 15px;
+}
+
+.copyright {
+  display: none;
+}
+
+.contacts__items {
+  margin-bottom: 0;
+}
+
+.organization__contacts {
+  padding-right: 88px;
+  margin-top: -7px;
+  padding-bottom: 11px;
+}
+
+.contacts__image {
+  width: 33px;
+  height: 33px;
+}
+
+}
+
+/* Media end*/
